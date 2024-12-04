@@ -22,7 +22,20 @@ age = 35
 
 x = 10;
 y = 5;
-x*=y // what will be the value of x ? 
+x*=y // what will be the value of x ?
+
+// 4.Use comments to describe the correct data type of the following variables:
+
+let length = 16; // int ? 
+let lastName = "Johnson"; // string type ? 
+
+const x = {
+  firstName: "John",  
+  lastName: "Doe"
+};    // object ? 
+
+
+
 
 
 
