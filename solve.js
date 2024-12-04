@@ -69,6 +69,18 @@ alert(cars.length);
 
     Brand.unshift = "Ford";
 console.log(Brand);
+ 
+// 8.1. Use the correct Math method to create a random number.
+let number = Math.random();
+
+// 2. Use the correct Math method to return the largest number of 10 and 20.
+let largeNumber = Math.max(10,20);
+
+// 3. Use the correct Math method to get the square root of 9.
+let squareRoot = Math.sqrt(9);
+
+
+
 
 
 
