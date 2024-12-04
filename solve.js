@@ -17,6 +17,12 @@ age = 35
     let age = 35 ; // write variable name and values both 
     
 }
+// 3.Use the correct assignment operator that will 
+// result in x being 50 (same as x = x * y). 
+
+x = 10;
+y = 5;
+x*=y // what will be the value of x ? 
 
 
 
