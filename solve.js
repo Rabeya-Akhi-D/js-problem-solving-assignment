@@ -50,6 +50,15 @@ const person ={
 };
 alert(person.name + "is" + person.age);
 
+// 1. The <button> element should do something when someone clicks on it. Try to fix it!
+
+<button>Click me.</button> 
+const button = document.getElementsId("button");
+button.addEventListener("click");
+alert("button clicked");
+
+
+
 
 
 
