@@ -49,3 +49,16 @@ function getFirstElement(arr) {
 console.log(getFirstElement([1, 2, 3])); // 1
 console.log(getFirstElement(["a", "b", "c"])); // "a"
 
+// 7.Write a function to check if an array is empty. The function should take a single argument, which is the array.
+function isArrayEmpty(arr) {
+  if (arr.length===0){
+    return true;
+  }
+  else{
+    return false;
+  }
+}
+
+console.log(isArrayEmpty([])); // true
+console.log(isArrayEmpty([1, 2, 3])); // false
+
