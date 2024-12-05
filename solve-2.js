@@ -72,3 +72,13 @@ function factorialize(num) {
 console.log(factorialize(5)); // 120
 console.log(factorialize(7)); // 5040
 
+// 9.Write a function to reverse a string. The function should take a single argument, which is the string to reverse.
+function reverseString(str) {
+  
+   return inputString.split("").reverse().join("");
+}
+
+console.log(reverseString("hello")); // "olleh"
+console.log(reverseString("world")); // "dlrow"
+
+
